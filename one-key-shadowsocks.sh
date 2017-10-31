@@ -56,6 +56,7 @@ function install_ss(){
     rootness
     get_system
     yum_install
+    pip_install
     pre_install
     setup_shadowsocks
     success_info
@@ -97,7 +98,7 @@ function yum_install(){
 }
 
 #install shadowsocks
-function yum_install(){
+function pip_install(){
     pip install shadowsocks
 }
 
