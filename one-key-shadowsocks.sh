@@ -52,7 +52,7 @@ __yellow(){
 }
 
 # Install Shadowsocks
-function install_ikev2(){
+function install_ss(){
     rootness
     get_system
     yum_install
@@ -148,3 +148,6 @@ function success_info(){
     echo -e "#############################################################"
     echo -e ""
 }
+
+#install and setup
+install_ss
